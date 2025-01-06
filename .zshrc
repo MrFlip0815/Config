@@ -47,3 +47,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias ls="ls --color=auto"
+
+# add some plugins
+source ~/testplugin/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/testplugin/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh

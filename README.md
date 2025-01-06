@@ -45,6 +45,12 @@ brew install oh-my-posh
 sudo apt-get install stow
 ```
 
+### Nerd Font
+
+```
+download at https://www.jetbrains.com/lp/mono/
+``` 
+
 ## Installation
 
 ```
