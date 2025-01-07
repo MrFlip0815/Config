@@ -1,7 +1,4 @@
 # Set up the prompt
-
-#eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
 autoload -Uz promptinit
 promptinit
 prompt adam1
