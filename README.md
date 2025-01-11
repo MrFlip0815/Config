@@ -1,4 +1,4 @@
-# This is my dotfiles config for my system
+# dotfiles config for nvim tmux and more
 
 ## Requirements
 
