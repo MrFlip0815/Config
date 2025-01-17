@@ -36,7 +36,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-eval "$(oh-my-posh init zsh --config ~/.config/omp/catppuccin.omp.toml)"
+eval "$(oh-my-posh init zsh --config ~/.config/omp/mytheme.omp.toml)"
 
 
 export NVM_DIR="$HOME/.nvm"
