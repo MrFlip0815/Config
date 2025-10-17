@@ -80,6 +80,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /testplugin/z
 git clone https://github.com/zsh-users/zsh-autosuggestions ./testplugin/zsh-autosuggestions
 ```
 
+# Tmux/TPM
+```
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+modify tmux config in '~/dotfiles/.config/tmux/tmux.conf' for tpm to load properly '~/dotfiles/.config/tmux/plugins/tpm/tpm
+´´´
 
 ## Video and Guides
 

@@ -46,5 +46,5 @@ export NVM_DIR="$HOME/.nvm"
 alias ls="ls --color=auto"
 
 # add some plugins
-source ~/testplugin/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source ~/testplugin/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/testplugin/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
