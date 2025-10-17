@@ -65,9 +65,11 @@ git restore .
 
 # zsh plugins (optional)
 
+```
 mkdir ~/testplugin/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /testplugin/zsh-syntax-highlighting/
 git clone https://github.com/zsh-users/zsh-autosuggestions ./testplugin/zsh-autosuggestions
+```
 
 
 ## Video and Guides
