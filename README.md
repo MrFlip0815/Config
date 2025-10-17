@@ -33,6 +33,9 @@ sudo apt-get install neovim
 sudo apt-get install tmux
 ```
 
+to fix tmux window pane renaming make sure to check out the catppuccin options file 
+https://www.reddit.com/r/tmux/comments/1conb7k/having_issue_with_window_titles/
+
 ### Oh My Posh
 
 ```
