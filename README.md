@@ -54,6 +54,12 @@ sudo apt-get install stow
 download at https://www.jetbrains.com/lp/mono/
 ``` 
 
+### RipGrep (Telescope)
+```
+sudo apt-get instral ripgrep
+´´´
+
+
 ## Installation
 
 ```
