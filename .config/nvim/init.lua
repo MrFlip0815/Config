@@ -456,6 +456,9 @@ require('lazy').setup({
           find_files = {
             find_command = { 'rg', '--files', '--sortr=modified' },
           },
+          colorscheme = {
+            enable_preview = true,
+          },
         },
         extensions = {
           ['ui-select'] = {
@@ -937,7 +940,8 @@ require('lazy').setup({
       signature = { enabled = true },
     },
   },
-
+  { 'ellisonleao/gruvbox.nvim', name = 'Gruvbox', priority = 1000 },
+  { 'darianmorat/gruvdark.nvim', name = 'Gruvbox Dark', priority = 1000 },
   { 'rose-pine/neovim', name = 'rosepine', priority = 1000 },
   { 'rebelot/kanagawa.nvim', name = 'kanagawa', priority = 1000 },
   { 'tiagovla/tokyodark.nvim', name = 'tokyodark', priority = 1000 },
@@ -953,14 +957,17 @@ require('lazy').setup({
       ---@diagnostic disable-next-line: missing-fields
       require('tokyonight').setup {
         styles = {
+          sidebars = 'transparent',
+          floats = 'transparent',
           comments = { italic = false }, -- Disable italics in comments
         },
+        transparent = true,
       }
 
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme 'tokyonight-night'
+      vim.cmd.colorscheme 'tokyonight'
     end,
   },
 
@@ -1060,7 +1067,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
